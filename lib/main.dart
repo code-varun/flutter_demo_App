@@ -1,3 +1,4 @@
+import 'package:demo/homepage.dart';
 import 'package:flutter/material.dart';
 // cupertino app bi use kar sakte i h
 
@@ -12,18 +13,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    int varun_age = 24;
-    String name = "Varun";
-
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Material(
-        child: Center(
-          child: Container(
-            child: Text("Hy, My name is $name and my age is $varun_age"),
-          ),
-        ),
-      ),
-    );
+    return MaterialApp(debugShowCheckedModeBanner: false, home: Homepage());
   }
 }
