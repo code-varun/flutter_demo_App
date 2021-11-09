@@ -1,4 +1,4 @@
 # demo
 
 ## Day 1 SS 
-<img src="/githubimages/day1.png">
+<img src="/github_images/day1.png">
