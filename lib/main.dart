@@ -1,6 +1,7 @@
 import 'package:demo/login.dart';
 import 'package:demo/pages/homepage.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 // cupertino app bi use kar sakte i h
 
 void main(List<String> args) {
@@ -21,9 +22,11 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       theme: ThemeData(primaryColor: Colors.redAccent),
       darkTheme: ThemeData(
-        primarySwatch: Colors.purple,
-        // brightness: Brightness.light,
-      ),
+          primarySwatch: Colors.purple,
+          fontFamily: GoogleFonts.lato().fontFamily,
+          primaryTextTheme: GoogleFonts.lateefTextTheme()
+          // brightness: Brightness.light,
+          ),
       routes: {
         "/": (context) => LoginPage(),
         "/login": (context) => LoginPage(),
